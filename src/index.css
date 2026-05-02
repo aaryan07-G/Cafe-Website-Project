@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cafe-bg: #0f0f0f;
+  --color-cafe-brown: #6f4e37;
+  --color-cafe-accent: #c89b6d;
+  --font-sans: "Inter", "Outfit", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-cafe-bg);
+  color: #f3f4f6;
+  font-family: var(--font-sans);
+}
+
